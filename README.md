@@ -36,7 +36,7 @@ Collaborative Notes will be posted here using <a href="http://pad.software-carpe
 | 02:00 - 04:00   | Taxonomic identification  |
 | 04:00 - 04:30   | Visualisation  |
 | 04:30 - 05:00   | Q&A, closure  |
-| ------------- | ------------- |
+
 
 
 
