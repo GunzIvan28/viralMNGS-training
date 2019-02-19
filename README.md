@@ -16,8 +16,8 @@ Collaborative Notes will be posted here using <a href="http://pad.software-carpe
 
 ## **Outline**
 
-* Introduction to viral metagenomics
-* Recap on Linux
+* Linux basics
+* Tools required
 * Tools for analysing metagenomic data
 * Metagenome assembly
 * Taxonomic identification
@@ -101,48 +101,4 @@ To evaluate and assess the assembly, we use `quast`. This will provide a summary
 quast.py -t 4 -f --meta contigs.fa -o .
 ```
 
-### **Gene predicition**
-For gene prediction proceeds using prodigal software. In this example, the output includes predicted genes, coded protein sequences and an annotation file. The annotation file has features, corresponding length and location on the genome among others. See full description of  at [GFF format](http://genome.ucsc.edu/FAQ/FAQformat.html#format3)
-
-```
-mkdir genes
-cd genes
-prodigal -a genes.fa -d proteins.fa -i ../denovo/contigs.fa -f gff -p meta > annotation.gff
-```
-
 ### **Taxonomic classification**
-```
-kaiju makeDB.sh -d kaijudb -v 
-
-#do the classification using kaiju metagenome classifier
-for sample in $(ls ../mapping/*R1*.fastq); do
-        bname=$(basename $sample "_host_removed_R1.fastq")
-        kaiju -v -x -z 20 \
-        -t /kaijudb/nodes.dmp \
-        -f /kaijudb/kaiju_db.fmi \
-        -i /mapping/${bname}_host_removed_R1.fastq \
-        -j /mapping/${bname}_host_removed_R2.fastq \
-        -o ${bname}_kaiju.out ;
-done
-
-#add taxon names to each file (this is stored in addtaxon.sh)
-for sample in $(ls *.out); do
-        addTaxonNames -t ../kaijudb/nodes.dmp \
-        -n ../kaijudb/names.dmp \
-        -i ${sample} \
-        -o ${sample}_names.out
-done
-
-#add sample names to each file
-for f in $(ls *names.out); do
-        #kaiju2krona -t ../kaijudb/nodes.dmp -n ../kaijudb/names.dmp -i $f -o ${s}.krona
-        sample=$(echo $f | cut -f 1 -d 'k' | sed 's/_/ /g' | sed 's/ /_/')
-        sed -i "s/$/\t$sample/" $f;
-done
-
-#pick only the classified records (identified by C in the first column)
-for i in $(ls *.out); do awk -F"\t" '$1=="C" {print $8"\t"$9}' $i > ${i}.classified; done
-
-#merge all this into a single file
-cat *.classified > merged.classified
-```
