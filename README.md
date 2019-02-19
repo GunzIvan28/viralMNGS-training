@@ -1,5 +1,6 @@
 
-![Alt text](assets/Capture.png?raw=true "header")
+![Alt text](https://github.com/galaxyuvri-ea/viralMNGS-training/tree/master/assets/Capture.png)
+
 <br>
 
 ## **Introduction**
