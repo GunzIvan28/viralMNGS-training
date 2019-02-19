@@ -1,5 +1,5 @@
 
-![Alt text](https://github.com/galaxyuvri-ea/viralMNGS-training/tree/master/assets/Capture.png)
+![Alt text](https://github.com/galaxyuvri-ea/viralMNGS-training/tree/master/assets/Capture.PNG)
 
 <br>
 
