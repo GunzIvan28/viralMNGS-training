@@ -1,4 +1,7 @@
 
+![Alt text](assets/header.png?raw=true "header")
+<br>
+
 ## **Introduction**
 
 UVRI and MRC-University of Glasgow Center for Virus Research have organised a one day joint bioinformatics training happening on 26th Feb 2019. The training will focus on genome assemblies and taxonomic profiling from NGS data. A quick intro to linux will be offered as well.
