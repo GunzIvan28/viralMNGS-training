@@ -9,7 +9,7 @@ The training is aimed at graduate students and other researchers. You don't need
 UVRI E-Library, Plot 51-59, Nakiwogo Road Entebbe on Feb 26, 2019. Participants owning laptops can bring them along.
 They do not need to have specific software packages installed since we sahll be using the UVRI server.
 
-Contact: Please email <a href="jkayondo@uvri.go.ug">jkayondo@uvri.go.ug<a/> or <a href="assekagiri@gmail.com">assekagiri@gmail.com<a/> for more information.
+Contact: Please email <a href="jkayondo@uvri.go.ug">jkayondo@uvri.go.ug<a/> or <a href="assekagiri@uvri.go.ug">assekagiri@gmail.com<a/> for more information.
 
 Collaborative Notes will be posted here using <a href="http://pad.software-carpentry.org/2019-02-19-uvri">Etherpad</a>
 
