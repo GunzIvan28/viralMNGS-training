@@ -11,19 +11,20 @@ They do not need to have specific software packages installed since we sahll be 
 
 Contact: Please email <a href="jkayondo@uvri.go.ug">jkayondo@uvri.go.ug<a/> or <a href="assekagiri@uvri.go.ug">assekagiri@uvri.go.ug<a/> for more information.
 
-Collaborative Notes will be posted here using <a href="http://pad.software-carpentry.org/2019-02-19-uvri">Etherpad</a>
+Collaborative notes will be posted on the <a href="http://pad.software-carpentry.org/2019-02-19-uvri">Etherpad</a>
 
 
 ## **Outline**
 
-* Linux basics
-* Tools required
-* Tools for analysing metagenomic data
-* Metagenome assembly
-* Taxonomic identification
-* Visualisation
+* Introduction to Linux
+* NGS file formats and Quality control
+* Reference mapping
+* Assembly statistics, visualisation and consensus generation
+* DeNovo assembly
+* Contig consolidation and Gap fillings
+* Kraken classification of NGS reads
 
-## **Sessions**
+## **Schedule**
 
 | Time  | Title|
 | ------------- | ------------- |
