@@ -26,21 +26,21 @@ Collaborative notes will be posted on the <a href="http://pad.software-carpentry
 
 ## **Schedule**
 
-| Time  | Title|
+| Time  | Session|
 | ------------- | ------------- |
-|0900:0915 |     Welcome and participants Introduction|
-|0915:1015 |     Introduction to Linux |
-|1015:1045 |      NGS file formats and Quality control (Theory/Practical)
-|1045:1115 |      Coffee break|
-|1115:1215 |      Reference mapping (Theory/Practical)|
+|0900 - 0915 |     Welcome and participants Introduction|
+|0915 - 1015 |     Introduction to Linux |
+|1015 - 1045 |      NGS file formats and Quality control (Theory/Practical)
+|1045 - 1115 |      Coffee break|
+|1115 - 1215 |      Reference mapping (Theory/Practical)|
 |1215: 1245 |     Assembly statistics, visualisation and consensus generation (Theory)|
-|1245:1330 |      Lunch|
-|1330:1400 |      Assembly statistics, visualisation and consensus generation (Practical)|
-|1400:1430 |      DeNovo assembly (Theory)|
-|1430:1500 |      DeNovo assembly (Practical)|
-|1530:1600 |      Coffee break|
-|1600:1630 |      Contig consolidation and Gap fillings|
-|1630:1700 |      Kraken classification of NGS reads |
+|1245 - 1330 |      Lunch|
+|1330 - 1400 |      Assembly statistics, visualisation and consensus generation (Practical)|
+|1400 - 1430 |      DeNovo assembly (Theory)|
+|1430 - 1500 |      DeNovo assembly (Practical)|
+|1530 - 1600 |      Coffee break|
+|1600 - 1630 |      Contig consolidation and Gap fillings|
+|1630 - 1700 |      Kraken classification of NGS reads |
 
 
 
