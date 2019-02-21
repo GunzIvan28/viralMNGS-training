@@ -1,5 +1,5 @@
 
-![alt text](assets/Capture.PNG?raw=true "header")
+![alt text](../assets/Capture.PNG?raw=true "header")
 
 
 ## **Introduction**
